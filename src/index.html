@@ -8,8 +8,9 @@ layout: /layouts/base.njk
     {% if post.data.image %}
     <img src="{{ post.data.image }}" alt="Post Image" loading="lazy">
     {% endif %}
-    {{ post.date | date: "%d-%m-%Y" }}
-    {{ post.content }}
+
+    <p class="date">// {{ post.date | date: "%d-%m-%Y" }}</p>
+    <p class="content">{{ post.content }}</p>
   </li>
   {% endfor %}
 </ol>
