@@ -1,11 +1,12 @@
 ---
-title: 2025-present
 layout: /layouts/base.njk
 ---
 
-{% for post in collections.posts %}
-<li>
-  {{ post.date | date: "%d-%m-%Y" }}
-  {{ post.content }}
-</li>
-{% endfor %}
+<ol>
+  {% for post in collections.posts %}
+  <li>
+    {{ post.date | date: "%d-%m-%Y" }}
+    {{ post.content }}
+  </li>
+  {% endfor %}
+</ol>

@@ -16,7 +16,7 @@
   }
   
   /* Dark theme */
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     :root {
       --bg: #212121;
       --accent-bg: #2b2b2b;
@@ -25,7 +25,7 @@
       --border: #666;
       --accent: #ffb300;
     }
-  }
+  } */
   
   * {
     box-sizing: border-box;
@@ -45,7 +45,7 @@
     line-height: 1.5;
     margin: 0 auto;
     max-width: 40em;
-    padding: 0 1em;
+    padding: 0 1em 1em 0;
   }
   
   body > header {
