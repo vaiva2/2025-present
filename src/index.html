@@ -5,7 +5,7 @@ layout: /layouts/base.njk
 
 {% for post in collections.posts %}
 <li>
-  {{ post.date }}
+  {{ post.date | date: "%d-%m-%Y" }}
   {{ post.content }}
 </li>
 {% endfor %}
