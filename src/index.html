@@ -1,9 +1,13 @@
 ---
 layout: /layouts/base.njk
+pagination:
+  data: collections.posts
+  size: 7
+  alias: paginatedPosts
 ---
 
 <ol class="posts">
-  {% for post in collections.posts %}
+  {% for post in paginatedPosts %}
   <li>
     {% if post.data.image %}
     <img src="{{ post.data.image }}" alt="Post Image" loading="lazy">
@@ -14,3 +18,13 @@ layout: /layouts/base.njk
   </li>
   {% endfor %}
 </ol>
+
+<div class="pagination">
+  {% if pagination.href.previous %}
+    <a href="{{pagination.href.previous}}"><<</a>
+  {% endif %}
+  
+  {% if pagination.href.next %}
+    <a href="{{pagination.href.next}}">>></a>
+  {% endif %}
+</div>
