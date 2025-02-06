@@ -2,9 +2,12 @@
 layout: /layouts/base.njk
 ---
 
-<ol>
+<ol class="posts">
   {% for post in collections.posts %}
   <li>
+    {% if post.data.image %}
+    <img src="{{ post.data.image }}" alt="Post Image">
+    {% endif %}
     {{ post.date | date: "%d-%m-%Y" }}
     {{ post.content }}
   </li>
