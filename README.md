@@ -9,3 +9,9 @@ hosted on [neocities](https://neocities.org/)
 based off of [flamed fury's 11ty guide](https://flamedfury.com/guides/11ty-homepage-neocities/)
 
 automatically builds and deploys using [bret comnes' deploy-to-neocities tool](https://github.com/bcomnes/deploy-to-neocities)
+
+# TODO
+* dark theme
+* lazy load
+* monthly querying
+* about page
