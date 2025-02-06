@@ -4,7 +4,6 @@ subdomain of [my personal site](https://vaiva.space).
 
 
 # REFERENCES
-***
 hosted on [neocities](https://neocities.org/)
 
 based off of [flamed fury's 11ty guide](https://flamedfury.com/guides/11ty-homepage-neocities/)
