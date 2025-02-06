@@ -1,5 +1,6 @@
 
-a blog/archive/hodgepodge project using 11ty as a static-site generator. deploys to [2025present.vaiva.space](https://2025present.vaiva.space.com). subdomain of [my personal site](https://vaiva.space).
+a blog/archive/hodgepodge project using 11ty as a static-site generator. deploys to [2025present.vaiva.space](https://2025present.vaiva.space.com). 
+subdomain of [my personal site](https://vaiva.space).
 
 
 # REFERENCES
